@@ -1,0 +1,27 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.0.1}%
+\contentsline {subsection}{\numberline {1.1}Problem Background}{3}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {1.2}Restatement of the Problems}{3}{subsection.0.1.2}%
+\contentsline {subsection}{\numberline {1.3}Our work}{3}{subsection.0.1.3}%
+\contentsline {section}{\numberline {2}Assumptions and Justification}{4}{section.0.2}%
+\contentsline {section}{\numberline {3}Notations}{4}{section.0.3}%
+\contentsline {section}{\numberline {4}The Models and The solution}{4}{section.0.4}%
+\contentsline {subsection}{\numberline {4.1}Model 1 and Solution}{4}{subsection.0.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Details about Model 1}{4}{subsubsection.0.4.1.1}%
+\contentsline {subsection}{\numberline {4.2}Model 2 and Solution}{5}{subsection.0.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Details about Model 2}{5}{subsubsection.0.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Conclusion of Model 2}{5}{subsubsection.0.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Commetary on Model 2}{5}{subsubsection.0.4.2.3}%
+\contentsline {section}{\numberline {5}Sensitivity Analysis and Error Analysis}{7}{section.0.5}%
+\contentsline {subsection}{\numberline {5.1}Sensitivity Analysis}{7}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {5.2}Error Analysis}{7}{subsection.0.5.2}%
+\contentsline {section}{\numberline {6}Model Evaluation and Further Discussion}{7}{section.0.6}%
+\contentsline {subsection}{\numberline {6.1}Strengths}{7}{subsection.0.6.1}%
+\contentsline {subsection}{\numberline {6.2}Weaknesses}{7}{subsection.0.6.2}%
+\contentsline {subsection}{\numberline {6.3}Further Discussion}{7}{subsection.0.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Model Improvement}{7}{subsubsection.0.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.2}Model Extension}{7}{subsubsection.0.6.3.2}%
+\contentsline {section}{Memorandum}{8}{section.0.7}%
+\contentsline {section}{References}{9}{section.1.7}%
+\contentsline {section}{Appendix A: Further on \LaTeX }{10}{section*.5}%
+\contentsline {section}{Appendix B: Program Codes}{10}{section*.6}%
+\contentsfinish 
