@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.11)  1 FEB 2024 21:40
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.11)  1 FEB 2024 21:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -736,14 +736,8 @@ File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 ] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./A.aux)
-
-Package rerunfilecheck Warning: File `A.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `A.out':
-(rerunfilecheck)             Before: 38E17B6B3B2BAF159AF7F811071E7040;4663
-(rerunfilecheck)             After:  CBB0CC8EC807CE1411F77B1CE7AF1D9C;4454.
+Package rerunfilecheck Info: File `A.out' has not changed.
+(rerunfilecheck)             Checksum: 8BF94194EAA9568D23398352A8EE31A9;4389.
  ) 
 Here is how much of TeX's memory you used:
  15704 strings out of 476683
