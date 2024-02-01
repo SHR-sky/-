@@ -22,6 +22,5 @@
 \contentsline {subsubsection}{\numberline {6.3.2}Model Extension}{7}{subsubsection.0.6.3.2}%
 \contentsline {section}{Memorandum}{8}{section.0.7}%
 \contentsline {section}{References}{9}{section.1.7}%
-\contentsline {section}{Appendix A: Further on \LaTeX }{10}{section*.5}%
-\contentsline {section}{Appendix B: Program Codes}{10}{section*.6}%
+\contentsline {section}{Appendix: Program Codes}{10}{section*.5}%
 \contentsfinish 

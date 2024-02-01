@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.11)  31 JAN 2024 10:49
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.11)  1 FEB 2024 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -503,7 +503,7 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup6
 )
-LaTeX Font Info:    Trying to load font information for T1+ppl on input line 26
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 25
 .
 
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/psnfss/t1ppl.fd
@@ -519,31 +519,31 @@ File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
 ) (./A.aux)
 \openout1 = `A.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-6.
+5.
  (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -597,7 +597,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: xetex.def on input line 149.
 
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 26.
+Package hyperref Info: Link coloring ON on input line 25.
 
 (./A.out) (./A.out)
 \@outlinefile=\write4
@@ -605,43 +605,43 @@ Package hyperref Info: Link coloring ON on input line 26.
 
 \c@lstlisting=\count315
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 4
-3.
+2.
 
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-43.
+42.
 
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-43.
+42.
 
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-43.
+42.
 
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 43.
+(Font)              scaled to size 12.50409pt on input line 42.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 43.
+(Font)              scaled to size 9.37807pt on input line 42.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 43.
+(Font)              scaled to size 7.29405pt on input line 42.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 43.
+(Font)              scaled to size 12.50409pt on input line 42.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 43.
+(Font)              scaled to size 9.37807pt on input line 42.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 43.
+(Font)              scaled to size 7.29405pt on input line 42.
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-43.
+42.
 
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -654,7 +654,7 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 
  [2]
 LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 5
-8.
+7.
 
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
@@ -668,32 +668,32 @@ File: ./img//water.png Graphic file (type bmp)
 <./img//water.png>
 
 [4]
-Overfull \hbox (5.07521pt too wide) in paragraph at lines 155--155
+Overfull \hbox (5.07521pt too wide) in paragraph at lines 154--154
 []|\T1/ppl/m/n/12 Continent| 
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 160--164
+Underfull \hbox (badness 1184) in paragraph at lines 159--163
 \T1/ppl/m/n/12 With 1.3 bil-lion peo-ple as of
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 165--169
+Underfull \hbox (badness 1009) in paragraph at lines 164--168
 \T1/ppl/m/n/12 pop-u-lous con-ti-nent which lo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--174
+Underfull \hbox (badness 10000) in paragraph at lines 169--173
 []|\T1/ppl/m/n/12 Asia cov-ers an area of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--174
+Underfull \hbox (badness 10000) in paragraph at lines 169--173
 \T1/ppl/m/n/12 44,579,000 square kilo-me-
  []
 
 
-Underfull \hbox (badness 5533) in paragraph at lines 170--174
+Underfull \hbox (badness 5533) in paragraph at lines 169--173
 \T1/ppl/m/n/12 land area and 8.7% of the
  []
 
@@ -706,27 +706,18 @@ File: ./img//water.png Graphic file (type bmp)
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+txtt on input line 2
-58.
+57.
 
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 ) [9]
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 18.00587pt on input line 268.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 268.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 18.00587pt on input line 268.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 268.
-
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 LaTeX Font Info:    Font shape `T1/txtt/b/n' in size <10.95> not available
-(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 286.
+(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 275.
 LaTeX Font Info:    Font shape `T1/txtt/m/it' in size <10.95> not available
-(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 287.
+(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 276.
 
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
@@ -745,16 +736,22 @@ File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 ] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./A.aux)
-Package rerunfilecheck Info: File `A.out' has not changed.
-(rerunfilecheck)             Checksum: 38E17B6B3B2BAF159AF7F811071E7040;4663.
+
+Package rerunfilecheck Warning: File `A.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `A.out':
+(rerunfilecheck)             Before: 38E17B6B3B2BAF159AF7F811071E7040;4663
+(rerunfilecheck)             After:  CBB0CC8EC807CE1411F77B1CE7AF1D9C;4454.
  ) 
 Here is how much of TeX's memory you used:
- 15718 strings out of 476683
- 249843 string characters out of 5802283
- 1866012 words of memory out of 5000000
- 35711 multiletter control sequences out of 15000+600000
- 541329 words of font info for 89 fonts, out of 8000000 for 9000
+ 15704 strings out of 476683
+ 249624 string characters out of 5802283
+ 1865012 words of memory out of 5000000
+ 35697 multiletter control sequences out of 15000+600000
+ 536733 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,12n,90p,427b,1613s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,12n,90p,427b,1607s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on A.pdf (10 pages).
