@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.11)  1 FEB 2024 21:59
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.11)  2 FEB 2024 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -653,7 +653,9 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 \openout5 = `A.toc'.
 
  [2]
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 5
+File: ./img//a fish with lamprey.jpg Graphic file (type bmp)
+<./img//a fish with lamprey.jpg>
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 6
 7.
 
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ppl.fd
@@ -664,36 +666,36 @@ File: ./img//work.jpg Graphic file (type bmp)
  [3
 
 ]
+[4]
 File: ./img//water.png Graphic file (type bmp)
 <./img//water.png>
 
-[4]
-Overfull \hbox (5.07521pt too wide) in paragraph at lines 154--154
+Overfull \hbox (5.07521pt too wide) in paragraph at lines 159--159
 []|\T1/ppl/m/n/12 Continent| 
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 159--163
+Underfull \hbox (badness 1184) in paragraph at lines 164--168
 \T1/ppl/m/n/12 With 1.3 bil-lion peo-ple as of
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 164--168
+Underfull \hbox (badness 1009) in paragraph at lines 169--173
 \T1/ppl/m/n/12 pop-u-lous con-ti-nent which lo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--173
+Underfull \hbox (badness 10000) in paragraph at lines 174--178
 []|\T1/ppl/m/n/12 Asia cov-ers an area of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--173
+Underfull \hbox (badness 10000) in paragraph at lines 174--178
 \T1/ppl/m/n/12 44,579,000 square kilo-me-
  []
 
 
-Underfull \hbox (badness 5533) in paragraph at lines 169--173
+Underfull \hbox (badness 5533) in paragraph at lines 174--178
 \T1/ppl/m/n/12 land area and 8.7% of the
  []
 
@@ -702,22 +704,22 @@ File: ./img//water.png Graphic file (type bmp)
 <./img//water.png>
 File: ./img//water.png Graphic file (type bmp)
 <./img//water.png>
- [6] [7] [8
+ [6] [7] [8] [9
 
-]
-LaTeX Font Info:    Trying to load font information for T1+txtt on input line 2
-57.
-
-(f:/texlive2023/texlive/2023/texmf-dist/tex/latex/txfonts/t1txtt.fd
-File: t1txtt.fd 2000/12/15 v3.1
-) [9]
+] [10]
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 2
+79.
+
+(f:/texlive2023/texlive/2023/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
 LaTeX Font Info:    Font shape `T1/txtt/b/n' in size <10.95> not available
-(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 275.
+(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 279.
 LaTeX Font Info:    Font shape `T1/txtt/m/it' in size <10.95> not available
-(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 276.
+(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 280.
 
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
@@ -731,21 +733,21 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 )
-[10
+[11
 
 ] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./A.aux)
 Package rerunfilecheck Info: File `A.out' has not changed.
-(rerunfilecheck)             Checksum: 8BF94194EAA9568D23398352A8EE31A9;4389.
+(rerunfilecheck)             Checksum: 665940F35562B99C9BB350EC70351D13;4389.
  ) 
 Here is how much of TeX's memory you used:
- 15704 strings out of 476683
- 249624 string characters out of 5802283
+ 15711 strings out of 476683
+ 249911 string characters out of 5802283
  1865012 words of memory out of 5000000
- 35697 multiletter control sequences out of 15000+600000
- 536733 words of font info for 75 fonts, out of 8000000 for 9000
+ 35704 multiletter control sequences out of 15000+600000
+ 534617 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,12n,90p,427b,1607s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,13n,90p,593b,1607s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on A.pdf (10 pages).
+Output written on A.pdf (11 pages).
