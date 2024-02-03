@@ -41,7 +41,7 @@
     % 美赛论文中无需注明关键字。若您一定要使用，
     % 请将以下两行的注释号 '%' 去除，以使其生效
     \vspace{5pt}
-    \textbf{Keywords}: MATLAB, mathematics, \LaTeX.
+    \textbf{Keywords}: Lotka–Volterra, mathematics, \LaTeX.
 
 \end{abstract}
 
@@ -122,20 +122,17 @@ The primary notations used in this paper are listed in Table.
 	\midrule
 	$N_{F}$&the number of female lamprey\\
 	$N_{M}$&the number of male lamprey\\
-	$TNF$ &total number of fish\\
+	$TNF$ &total number of lamprey\\
 	$RA$&resource availability\\
 	$c$&Population fertility coefficient\\
 	$r$ &the growth rate relative to sex ratio\\
 	$\alpha$ &the proportion of male in growth lamprey\\
 	$\beta$ &the decrease rate in relation to number\\
-	$U$&-\\
-	$h$&-\\
+	$U$&the number of hosts and predators\\
+	$h$&the growth rates of hosts and predators\\
 	$\epsilon$&the predation conversion factor\\
 	$a$&predatory capacity of lamprey\\
-	
-
 	\bottomrule
-
 \end{tabular}\label{tb:001}
 \small
 \textit{Other notations instructions will be given in the text.}
@@ -147,15 +144,57 @@ The primary notations used in this paper are listed in Table.
 
 \subsection{Model 1 and Solution}
 \subsubsection{Details about Model 1}
-The detail can be described by equation \eqref{eq:heat}:
+We define the max number of $RA$ as $RA_{max}$
 
-\begin{equation}\label{eq:heat}
-\frac{\partial u}{\partial t} - a^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2} \right) = f(x, y, z, t)
+\begin{equation}\label{eq:4-1}
+\begin{cases}
+	\frac{\mathrm{d}N_{M}}{\mathrm{d}t}=r \cdot \alpha RA-\beta N_{M}-\frac{r\cdot RA}{\lambda} \\
+	\\
+	\frac{\mathrm{d}N_{F}}{\mathrm{d}t}=r \cdot(1 - \alpha )RA-\beta N_{F}-\frac{r\cdot RA}{\lambda} \\
+\end{cases}
 \end{equation}
 
-$$
-\frac{1}{2}=0.5
-$$
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[htbp]
+	\centering
+	\subfloat[]
+	{\includegraphics[width=0.3\textwidth]{alpha30.jpg}\label{alpha30}}
+	\quad    % 重点就在这，优先横向排列，自动换行
+	\subfloat[]
+	{\includegraphics[width=0.3\textwidth]{alpha40.jpg}\label{alpha40}}
+	\quad
+	\subfloat[]
+	{\includegraphics[width=0.3\textwidth]{alpha50.jpg}\label{alpha50}}
+	\quad
+	\subfloat[]
+	{\includegraphics[width=0.3\textwidth]{alpha60.jpg}\label{alpha60}}
+	\quad
+	\subfloat[]
+	{\includegraphics[width=0.3\textwidth]{alpha70.jpg}\label{alpha70}}
+	\quad
+	\subfloat[]
+	{\includegraphics[width=0.3\textwidth]{alpha80.jpg}\label{alpha80}}
+	\quad
+	\caption{111}
+\end{figure}
+
+
+
+
+
+
+
+
+
 
 \begin{table}[!htbp]
 	\begin{center}
@@ -307,27 +346,6 @@ Figure \ref{fig:subfigures} gives an example of subfigures. Figure \ref{subfig:l
  \subsubsection{Model Extension}
 
 
-% 以下为信件/备忘录部分，不需要可自行去掉
-% 如有需要可将整个 letter 环境移动到文章开头或中间
-% 请在第二个花括号内填写标题，如「信件」（Letter）或「备忘录」（Memorandum）
-\begin{letter}{Memorandum}
-\begin{flushleft}  % 左对齐环境，无首行缩进
-\textbf{To:} Heishan Yan\\
-\textbf{From:} Team 1234567\\
-\textbf{Date:} October 1st, 2019\\
-\textbf{Subject:} A better choice than MS Word: \LaTeX
-\end{flushleft}
-
-In the memo, we want to introduce you an alternate typesetting program to the prevailing MS Word: \textbf{\LaTeX}. In fact, the history of \LaTeX\ is even longer than that of MS Word. In 1970s, the famous computer scientist Donald Knuth first came out with a typesetting program, which named \TeX\ \ldots
-
-Firstly, \ldots
-
-Secondly, \ldots
-
-Lastly, \ldots
-
-According to all those mentioned above, it is really worth to have a try on \LaTeX! 
-\end{letter}
 \newpage
 
 % 参考文献，此处以 MLA 引用格式为例
@@ -344,7 +362,7 @@ According to all those mentioned above, it is really worth to have a try on \LaT
 % 如您的论文中不需要附录，请自行删除
 \begin{subappendices}  % 附录环境
 
-\section{Appendix: Program Codes}
+\section{Appendix: Source Code on Model}
 Here are the program codes we used in our research.
 
 % 代码环境示例三则
@@ -360,10 +378,56 @@ for i in range(10):
 
 % MATLAB 代码示例
 \begin{lstlisting}[language=MATLAB, name={test.m}]
-% MATLAB code example
-for i = 1:10
-    disp("hello, world!");
+% Model 1
+clear;clc;
+figure
+alpha = 0.8;
+Ram = 10000;
+[t,y] = ode45(@(t,y) lampreyModel(t,y,alpha,Ram),[0,80],[800,1200]);
+plot(t,y(:,1)+y(:,2),'DisplayName','Number of Lampreys','LineWidth',1);
+hold on;
+plot(t,y(:,1),'DisplayName','Number of Male Lampreys','LineWidth',1);
+hold on;
+plot(t,y(:,2),'DisplayName','Number of Female Lampreys','LineWidth',1);
+hold on;
+title(['Number of Lamprey vs. Time with \alpha=',num2str(alpha)],
+'FontSize',16)
+set(gcf,'Position',[50,50,600,500]);
+xlabel('Time','FontSize',16);
+ylabel('Num','FontSize',16);
+legend('Location','southeast');
+hold on;
+
+% Model 1 RA-Time
+clear;clc;
+figure;
+Ram = 10000;
+for i = 0:5
+alpha = i*(0.8-0.3)/5+0.3;
+[t,y] = ode45(@(t,y) lampreyModel(t,y,alpha,Ram),[0,80],[800,1200]);
+plot(t,Ram-y(:,1)-y(:,2),'DisplayName',
+['RA with \alpha=',num2str(alpha)],'LineWidth',1.5);
+hold on;
 end
+title('RA vs. \alpha')
+legend;
+hold off;
+
+% Model 1 RA-Alpha
+clear;clc;
+figure;
+Ram = 10000;
+RaM = zeros(1000,1);
+x = [(1:1000)*1/1000];
+for i = 1:1000
+alpha = i*1/1000;
+[t,y] = ode45(@(t,y) lampreyModel(t,y,alpha,Ram),[0,200],[800,1200]);
+RaM(i) = Ram-y(end,1)-y(end,2);
+end
+plot(x,RaM,'LineWidth',1.5,'DisplayName','RA');
+hold on;
+title('RA vs. \alpha')
+legend;
 \end{lstlisting}
 
 % C++ 代码示例
