@@ -52,7 +52,7 @@
 % 正文开始
 \section{Introduction}
 \subsection{Problem Background}
-A population that is necessarily dependent on reproduction for its development and continuation. Based on sexual reproduction, the birth rate (growth rate) of a population is greatly influenced by the sex ratio. Therefore, although many species exhibit a 1:1 sex ratio at birth, species tend to deviate from an even sex ratio in order to adapt to their environment and continue their populations. This is known as adaptive sex ratio variation.\cite{1} The lamprey is one such typical species.
+A population that is necessarily dependent on reproduction for its development and continuation. Based on sexual reproduction, the growth rate of a population is greatly influenced by the sex ratio. Therefore, although many species exhibit a 1:1 sex ratio at birth, species tend to deviate from an even sex ratio in order to adapt to their environment and continue their populations. This is known as adaptive sex ratio variation.\cite{1} The lamprey is one such typical species.
 
 However, the role of the lamprey is complex. the seven-gill eel is complex. For some lake habitats, it is a parasite that is harmful to the ecosystem, and we want to reduce its reproduction; but at the same time, the seven-gill eel is a source of food in some parts of the world, and we want to promote its reproduction.\cite{2} Therefore, we address these questions by studying the pros and cons of the ability to alter their sex ratio based on resource availability, modeling their relationship with growth rates, and studying their impact on other species in the ecosystem
 
@@ -66,28 +66,33 @@ However, the role of the lamprey is complex. the seven-gill eel is complex. For 
 
 \begin{itemize}
 	\item Develop and examine a model to provide insights into the impact on the larger ecological system when the population of lampreys can alter its sex ratio
-	\item Evaluate the advantages and disadvantages of the ability to change sex ratios for the population itself and for the external ecosystem under the same resource availability conditions, taking into account the modeling of question 1
-	\item 
-	\item 
+	\item Evaluate the advantages and disadvantages of the ability to change sex ratios for the population itself and for the external ecosystem under the same resource availability conditions, taking into account the modeling of Question 1
+	\item Study the impact of sex ratio on ecosystem stability, specifically speaking,to evaluate the impact on ecosystems by considering the influence of changing population sex ratios on other populations on the basis of previous models.
+	\item Developing a model to describe the relationship between lampreys and its parasites, study whether ecosystems with changing population sex ratios can provide advantages to other species in the ecosystem such as parasites
 \end{itemize}
 
 \subsection{Overview of Our work}
-We do such things ...
+In order to find the relationship between sex ratio and environmental availability, we modeled the dynamics of the population and gradually added predator and parasite interactions to the model, constituting a model of the effect of variable sex ratio on the ecosystem, and finally, based on the model, we proposed the role of sex ratio control for human beings in the ecosystem.
 
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=.8\textwidth]{work.jpg}
-	\caption{our work}\label{fig:work}
-\end{figure}
 
 \begin{itemize}
-	\item We do...
-	\item We do...
+	\item Assumptions are made to reduce complex ecosystems and the interactions within them (e.g., food chain relationships) to plausible resource-pressure relationships, and typical predation and parasitism relationships are included for objective modeling of population changes.
+	\item Modeling of populations. Based on the Logitics model and the population dynamics equation, a sex ratio-environmental availability model was developed to study its effects on the population itself, as well as on the ecosystem.
+	\item Modeling ecosystem interactions. Based on the Lotka-Volterra equation, predators and parasitoids were introduced respectively, and the model was improved so that it could describe the interactions of various groups in the ecosystem to study the role of sex ratios, and the TOPSIS evaluation model improved by the entropy weight method was used to study the effects on ecosystem stability
+	\item Analyze the strengths and weaknesses of the model and make the conclusions
 \end{itemize}
 
 
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.95\textwidth]{work.jpg}
+	\caption{our work}\label{fig:work}
+\end{figure}
+
+
 \section{Assumptions and Justification}
-To simplify the problem, we make the following basic assumptions, each of which is properly justified.
+ While ensuring the correctness,to simplify the problem, we make the following basic assumptions, each of which is properly justified.
 
 \begin{itemize}
 	\item \textbf{Assumption 1:}
@@ -103,26 +108,38 @@ To simplify the problem, we make the following basic assumptions, each of which 
 
 
 \section{Notations}
-The primary notations used in this paper are listed in Table \ref{tb:notation}.
+The primary notations used in this paper are listed in Table.
 
 % 三线表示例
 \begin{table}[!htbp]
 \begin{center}
+\begin{threeparttable}
 \caption{Notations}
 \begin{tabular}{cl}
 	\toprule
 	\multicolumn{1}{m{3cm}}{\centering Symbol}
 	&\multicolumn{1}{m{12cm}}{\centering Definition}\\
 	\midrule
-	$W$&the number of females\\
-	$M$&the number of males\\
-	$RA$&resource availability\\
-	$\alpha$ &the Proportion of male minnows\\
-	$r$ &the birth rate relative to resources\\
-	$\beta$ &the mortality rate relative to number\\
+	$N_{F}$&the number of female lamprey\\
+	$N_{M}$&the number of male lamprey\\
 	$TNF$ &total number of fish\\
+	$RA$&resource availability\\
+	$c$&Population fertility coefficient\\
+	$r$ &the growth rate relative to sex ratio\\
+	$\alpha$ &the proportion of male in growth lamprey\\
+	$\beta$ &the decrease rate in relation to number\\
+	$U$&-\\
+	$h$&-\\
+	$\epsilon$&the predation conversion factor\\
+	$a$&predatory capacity of lamprey\\
+	
+
 	\bottomrule
+
 \end{tabular}\label{tb:001}
+\small
+\textit{Other notations instructions will be given in the text.}
+\end{threeparttable}
 \end{center}
 \end{table}
 
@@ -135,6 +152,10 @@ The detail can be described by equation \eqref{eq:heat}:
 \begin{equation}\label{eq:heat}
 \frac{\partial u}{\partial t} - a^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2} \right) = f(x, y, z, t)
 \end{equation}
+
+$$
+\frac{1}{2}=0.5
+$$
 
 \begin{table}[!htbp]
 	\begin{center}
@@ -176,7 +197,18 @@ The detail can be described by equation \eqref{eq:heat}:
 
 
 
-
+\begin{figure}[htbp]
+	\centering
+	\begin{subfigure}[b]{.45\textwidth}
+		\includegraphics[width=\textwidth]{RA-TimeBig.png}
+		\caption{Image on the left}\label{subfig:left}
+	\end{subfigure}
+	\begin{subfigure}[b]{.45\textwidth}
+		\includegraphics[width=\textwidth]{RA-Alpha.jpg}
+		\caption{Image on the right}\label{subfig:right}
+	\end{subfigure}
+	\caption{Two images}\label{fig:subfigures}
+\end{figure}
 
 
 
@@ -190,12 +222,12 @@ The detail can be described by equation \eqref{eq:heat}:
 
 
 \subsubsection{Conclusion of Model 2}
-The results are shown in Figure \ref{fig:result}, where $t$ denotes the time in seconds, and $c$ refers to the concentration of water in the boiler.
+The results are shown in Figure , where $t$ denotes the time in seconds, and $c$ refers to the concentration of water in the boiler.
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=.8\textwidth]{water.png}
-\caption{The result of Model 2}\label{fig:result}
+\includegraphics[width=.8\textwidth]{RA-TimeBig.png}
+\caption{The result of Model 2}\label{fig:666}
 \end{figure}
 
 %\clearpage
@@ -246,18 +278,8 @@ Figure \ref{fig:subfigures} gives an example of subfigures. Figure \ref{subfig:l
 % 子图（多图并列）示例，更多用法请参考 subfigure 宏包文档
 % 如果您只希望几张图并列，不需要额外的 caption，那么在 figure 环境中
 % 连续插入总宽度不超过 \textwidth 的多个 \includegraphics 命令即可
-\begin{figure}[htbp]
-\centering
-\begin{subfigure}[b]{.4\textwidth}
-\includegraphics[width=\textwidth]{water.png}
-\caption{Image on the left}\label{subfig:left}
-\end{subfigure}
-\begin{subfigure}[b]{.4\textwidth}
-\includegraphics[width=\textwidth]{water.png}
-\caption{Image on the right}\label{subfig:right}
-\end{subfigure}
-\caption{Two images}\label{fig:subfigures}
-\end{figure}
+
+
 
 \section{Test the Model}
 
@@ -312,9 +334,8 @@ According to all those mentioned above, it is really worth to have a try on \LaT
 \begin{thebibliography}{99}
 \bibitem{1} Karlin S, Lessard S. Theoretical studies on \emph{sex ratio evolution}[J]. 1986.
 \bibitem{2} Almeida P R, Arakawa H, Aronsuu K, et al. \emph{Lamprey fisheries: History, trends and management}[J]. Journal of Great Lakes Research, 2021, 47: S159-S185.
-\bibitem{3} \emph{The National Center for Biotechnology Information: sea lamprey}, 
-from\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5378093/}
-\bibitem{3} 
+\bibitem{3} \emph{The National Center for Biotechnology Information: sea lamprey}, from\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5378093/}
+\bibitem{4} Lewandoski, S. A. Brenden, T. O. (2022). Forecasting suppression of invasive sea lamprey in Lake Superior. Journal of Applied Ecology, 59, 2023–2035. from url{https://doi.org/10.1111/1365-2664.14203}
 \end{thebibliography}
 
 

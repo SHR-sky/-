@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.11)  2 FEB 2024 19:25
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.11)  3 FEB 2024 14:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -520,11 +520,7 @@ File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
 \g__pdf_backend_object_int=\count312
 \g__pdf_backend_annotation_int=\count313
 \g__pdf_backend_link_int=\count314
-) (./A.aux
-
-LaTeX Warning: Label `3' multiply defined.
-
-)
+) (./A.aux)
 \openout1 = `A.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -669,69 +665,72 @@ LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 6
 
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-)
-File: ./img//work.jpg Graphic file (type bmp)
-<./img//work.jpg>
- [3
+) [3
 
 ]
+File: ./img//work.jpg Graphic file (type bmp)
+<./img//work.jpg>
 
-LaTeX Warning: Reference `tb:notation' on page 4 undefined on input line 106.
-
-[4]
-File: ./img//water.png Graphic file (type bmp)
-<./img//water.png>
- [5]
-Overfull \hbox (5.07521pt too wide) in paragraph at lines 212--212
+[4] [5]
+File: ./img//RA-TimeBig.png Graphic file (type bmp)
+<./img//RA-TimeBig.png>
+File: ./img//RA-Alpha.jpg Graphic file (type bmp)
+<./img//RA-Alpha.jpg>
+File: ./img//RA-TimeBig.png Graphic file (type bmp)
+<./img//RA-TimeBig.png>
+ [6]
+Overfull \hbox (5.07521pt too wide) in paragraph at lines 244--244
 []|\T1/ppl/m/n/12 Continent| 
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 217--221
+Underfull \hbox (badness 1184) in paragraph at lines 249--253
 \T1/ppl/m/n/12 With 1.3 bil-lion peo-ple as of
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 222--226
+Underfull \hbox (badness 1009) in paragraph at lines 254--258
 \T1/ppl/m/n/12 pop-u-lous con-ti-nent which lo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--231
+Underfull \hbox (badness 10000) in paragraph at lines 259--263
 []|\T1/ppl/m/n/12 Asia cov-ers an area of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--231
+Underfull \hbox (badness 10000) in paragraph at lines 259--263
 \T1/ppl/m/n/12 44,579,000 square kilo-me-
  []
 
 
-Underfull \hbox (badness 5533) in paragraph at lines 227--231
+Underfull \hbox (badness 5533) in paragraph at lines 259--263
 \T1/ppl/m/n/12 land area and 8.7% of the
  []
 
-[6]
-File: ./img//water.png Graphic file (type bmp)
-<./img//water.png>
-File: ./img//water.png Graphic file (type bmp)
-<./img//water.png>
- [7] [8] [9
+[7] [8] [9] [10
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+txtt on input line 3
-16.
+37.
 
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
-) [10]
-(f:/texlive2023/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
+)
+Missing character: There is no – ("2013) in font pplr8t!
+
+Underfull \hbox (badness 1057) in paragraph at lines 338--339
+[]\T1/ppl/m/n/12 Lewandoski, S. A. Bren-den, T. O. (2022). Fore-cast-ing sup-pr
+es-sion of in-va-sive
+ []
+
+[11] (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 LaTeX Font Info:    Font shape `T1/txtt/b/n' in size <10.95> not available
-(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 334.
+(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 355.
 LaTeX Font Info:    Font shape `T1/txtt/m/it' in size <10.95> not available
-(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 335.
+(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 356.
 
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
@@ -745,27 +744,24 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 )
-[11
+[12
 
 ] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./A.aux)
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `A.out' has not changed.
-(rerunfilecheck)             Checksum: 956014CCAA886EB10C4202AFE1420831;4389.
+(rerunfilecheck)             Checksum: 36C2016FA0BD4708CD4554A4FBF8AC8A;4389.
  ) 
 Here is how much of TeX's memory you used:
- 15783 strings out of 476683
- 251397 string characters out of 5802283
+ 15794 strings out of 476683
+ 251667 string characters out of 5802283
  1865012 words of memory out of 5000000
- 35772 multiletter control sequences out of 15000+600000
- 535836 words of font info for 74 fonts, out of 8000000 for 9000
+ 35782 multiletter control sequences out of 15000+600000
+ 536733 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,13n,90p,602b,1607s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on A.pdf (11 pages).
+Output written on A.pdf (12 pages).
