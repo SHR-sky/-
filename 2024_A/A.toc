@@ -4,22 +4,31 @@
 \contentsline {subsection}{\numberline {1.3}Overview of Our work}{4}{subsection.0.1.3}%
 \contentsline {section}{\numberline {2}Assumptions and Justification}{5}{section.0.2}%
 \contentsline {section}{\numberline {3}Notations}{5}{section.0.3}%
-\contentsline {section}{\numberline {4}The Models and The solution}{5}{section.0.4}%
-\contentsline {subsection}{\numberline {4.1}Model 1 and Solution}{5}{subsection.0.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Details about Model 1}{5}{subsubsection.0.4.1.1}%
-\contentsline {subsection}{\numberline {4.2}Model 2 and Solution}{7}{subsection.0.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Details about Model 2}{7}{subsubsection.0.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Conclusion of Model 2}{7}{subsubsection.0.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Commetary on Model 2}{8}{subsubsection.0.4.2.3}%
-\contentsline {section}{\numberline {5}Test the Model}{9}{section.0.5}%
-\contentsline {subsection}{\numberline {5.1}Sensitivity Analysis}{9}{subsection.0.5.1}%
-\contentsline {subsection}{\numberline {5.2}Error Analysis}{9}{subsection.0.5.2}%
-\contentsline {section}{\numberline {6}Model Evaluation and Further Discussion}{9}{section.0.6}%
-\contentsline {subsection}{\numberline {6.1}Strengths}{9}{subsection.0.6.1}%
-\contentsline {subsection}{\numberline {6.2}Weaknesses}{9}{subsection.0.6.2}%
-\contentsline {subsection}{\numberline {6.3}Further Discussion}{9}{subsection.0.6.3}%
-\contentsline {subsubsection}{\numberline {6.3.1}Model Improvement}{9}{subsubsection.0.6.3.1}%
-\contentsline {subsubsection}{\numberline {6.3.2}Model Extension}{9}{subsubsection.0.6.3.2}%
-\contentsline {section}{References}{10}{section.0.7}%
-\contentsline {section}{Appendix: Source Code on Model}{11}{section*.10}%
+\contentsline {section}{\numberline {4}Model 1: Sex Ratio Resource Consumption Model}{6}{section.0.4}%
+\contentsline {subsection}{\numberline {4.1}Description of Lampreys and the Ecosystems}{6}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {4.2}Derivation and Modeling the Model}{7}{subsection.0.4.2}%
+\contentsline {subsection}{\numberline {4.3}Analysis of the Result}{8}{subsection.0.4.3}%
+\contentsline {section}{\numberline {5}Model 2: Sex Ratio Resource Consumption with Prey Model}{10}{section.0.5}%
+\contentsline {subsection}{\numberline {5.1}Description of a Predator-prey Chain}{10}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {5.2}Analysis of the Result}{12}{subsection.0.5.2}%
+\contentsline {section}{\numberline {6}Model 3: Sex Ratio Environmental Stability Model with Lyapunov Exponent}{14}{section.0.6}%
+\contentsline {subsection}{\numberline {6.1}Introducing Lyapunov Exponent and Competitors into the System}{14}{subsection.0.6.1}%
+\contentsline {subsection}{\numberline {6.2}Analysis of the Result}{17}{subsection.0.6.2}%
+\contentsline {section}{\numberline {7}Model 4: Population Interaction with Sex Ratios Model}{17}{section.0.7}%
+\contentsline {subsection}{\numberline {7.1}Description of the Transformation From Continuous Food Web Model to Discrete One}{17}{subsection.0.7.1}%
+\contentsline {subsection}{\numberline {7.2}Analysis of the Result}{19}{subsection.0.7.2}%
+\contentsline {section}{\numberline {8}Test the Model}{20}{section.0.8}%
+\contentsline {subsection}{\numberline {8.1}Stability Analysis}{20}{subsection.0.8.1}%
+\contentsline {subsection}{\numberline {8.2}Sensitivity Analysis}{20}{subsection.0.8.2}%
+\contentsline {section}{\numberline {9}Model Conclusion }{21}{section.0.9}%
+\contentsline {subsection}{\numberline {9.1}Summary of Results}{21}{subsection.0.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}Summary for Model 1}{21}{subsubsection.0.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.2}Summary for Model 2}{21}{subsubsection.0.9.1.2}%
+\contentsline {subsubsection}{\numberline {9.1.3}Summary for Model 3}{22}{subsubsection.0.9.1.3}%
+\contentsline {subsubsection}{\numberline {9.1.4}Summary for Model 4}{22}{subsubsection.0.9.1.4}%
+\contentsline {subsection}{\numberline {9.2}Strengths and Possible Improvements}{22}{subsection.0.9.2}%
+\contentsline {subsubsection}{\numberline {9.2.1}Strengths}{22}{subsubsection.0.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.2}Possible Improvements}{22}{subsubsection.0.9.2.2}%
+\contentsline {section}{References}{23}{section.0.10}%
+\contentsline {section}{Appendix: Source Code on the Model}{24}{section*.21}%
 \contentsfinish 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.11)  3 FEB 2024 15:19
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.11)  6 FEB 2024 01:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -508,7 +508,7 @@ Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS)
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box67
 )
-LaTeX Font Info:    Trying to load font information for T1+ppl on input line 27
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 26
 .
  (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
@@ -523,31 +523,31 @@ File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
 ) (./A.aux)
 \openout1 = `A.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-7.
+6.
  (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -602,7 +602,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: xetex.def on input line 149.
 
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 27.
+Package hyperref Info: Link coloring ON on input line 26.
 
 (./A.out) (./A.out)
 \@outlinefile=\write4
@@ -611,50 +611,49 @@ Package hyperref Info: Link coloring ON on input line 27.
 \c@lstlisting=\count315
 
 Missing character: There is no – ("2013) in font pplr8t!
-LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 4
-4.
-(f:/texlive2023/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+[1
+
+] (./A.toc
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 2
+.
+ (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-44.
-
-(f:/texlive2023/texlive/2023/texmf-dist/tex/latex/psnfss/omlzplm.fd
+2.
+ (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-44.
+2.
 
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-44.
+2.
 
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 44.
+(Font)              scaled to size 12.50409pt on input line 2.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 44.
+(Font)              scaled to size 9.37807pt on input line 2.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 44.
+(Font)              scaled to size 7.29405pt on input line 2.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 44.
+(Font)              scaled to size 12.50409pt on input line 2.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 44.
+(Font)              scaled to size 9.37807pt on input line 2.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 44.
+(Font)              scaled to size 7.29405pt on input line 2.
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-44.
+2.
 
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-) [1
-
-]
-(./A.toc)
+))
 \tf@toc=\write5
 \openout5 = `A.toc'.
 
@@ -662,17 +661,17 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 File: ./img//a fish with lamprey.jpg Graphic file (type bmp)
 <./img//a fish with lamprey.jpg>
 LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 6
-8.
+6.
 
 (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 ) [3
 
 ]
+Missing character: There is no ’ ("2019) in font pplr8t!
 File: ./img//work.jpg Graphic file (type bmp)
 <./img//work.jpg>
-
-[4] [5]
+[4] [5] [6] [7]
 File: ./img//alpha30.jpg Graphic file (type bmp)
 <./img//alpha30.jpg>
 File: ./img//alpha40.jpg Graphic file (type bmp)
@@ -681,94 +680,165 @@ File: ./img//alpha50.jpg Graphic file (type bmp)
 <./img//alpha50.jpg>
 File: ./img//alpha60.jpg Graphic file (type bmp)
 <./img//alpha60.jpg>
-File: ./img//alpha70.jpg Graphic file (type bmp)
-<./img//alpha70.jpg>
 File: ./img//alpha80.jpg Graphic file (type bmp)
 <./img//alpha80.jpg>
-File: ./img//RA-TimeBig.png Graphic file (type bmp)
-<./img//RA-TimeBig.png>
-File: ./img//RA-Alpha.jpg Graphic file (type bmp)
-<./img//RA-Alpha.jpg>
-File: ./img//RA-TimeBig.png Graphic file (type bmp)
-<./img//RA-TimeBig.png>
- [6]
-Overfull \hbox (5.07521pt too wide) in paragraph at lines 283--283
-[]|\T1/ppl/m/n/12 Continent| 
+File: ./img//M1-Num-ratio.jpg Graphic file (type bmp)
+<./img//M1-Num-ratio.jpg>
+ [8]
+File: ./img//RA-TimeBig.jpg Graphic file (type bmp)
+<./img//RA-TimeBig.jpg>
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 267.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 267.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 267.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 267.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 267.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 267.
+File: ./img//RA-alpha.jpg Graphic file (type bmp)
+<./img//RA-alpha.jpg>
+ [9]
+File: ./img//red pic.jpg Graphic file (type bmp)
+<./img//red pic.jpg>
+
+Overfull \hbox (20.86093pt too wide) in paragraph at lines 292--292
+|[]\T1/ppl/b/n/17.28 Model 2: Sex Ra-tio Re-source Con-sump-tion with Prey Mode
+l| 
+ []
+
+[10
+
+]
+Missing character: There is no – ("2013) in font pplr8t!
+[11]
+File: ./img//M2-Num-Time-ExtLong.jpg Graphic file (type bmp)
+<./img//M2-Num-Time-ExtLong.jpg>
+File: ./img//M2-Num-Time-Long.jpg Graphic file (type bmp)
+<./img//M2-Num-Time-Long.jpg>
+File: ./img//M2-Num-Time.jpg Graphic file (type bmp)
+<./img//M2-Num-Time.jpg>
+
+Overfull \hbox (3.95802pt too wide) in paragraph at lines 370--370
+ \T1/ppl/m/n/12 Males(mm)| 
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 288--292
-\T1/ppl/m/n/12 With 1.3 bil-lion peo-ple as of
+Overfull \hbox (3.95802pt too wide) in paragraph at lines 371--371
+ \T1/ppl/m/n/12 Males(mm)| 
  []
 
+[12]
+File: ./img//M2-Lamprey-Prey.jpg Graphic file (type bmp)
+<./img//M2-Lamprey-Prey.jpg>
+File: ./img//M2-Lamprey-Prey-ChangeableAlpha.jpg Graphic file (type bmp)
+<./img//M2-Lamprey-Prey-ChangeableAlpha.jpg>
+File: ./img//M2-NumTime-Ext.jpg Graphic file (type bmp)
+<./img//M2-NumTime-Ext.jpg>
 
-Underfull \hbox (badness 1009) in paragraph at lines 293--297
-\T1/ppl/m/n/12 pop-u-lous con-ti-nent which lo-
+Missing character: There is no α ("3B1) in font pplr8t!
+[13]
+Missing character: There is no – ("2013) in font pplr8t!
+[14]
+Missing character: There is no – ("2013) in font pplr8t!
+Missing character: There is no ， ("FF0C) in font pplr8t!
+[15]
+File: ./img//L.jpg Graphic file (type bmp)
+<./img//L.jpg>
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 503.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 503.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 503.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 503.
+
+Missing character: There is no α ("3B1) in font pplr8t!
+[16]
+File: ./img//StableNumFixedAlpha.jpg Graphic file (type bmp)
+<./img//StableNumFixedAlpha.jpg>
+File: ./img//LyapunovExponentModel4.jpg Graphic file (type bmp)
+<./img//LyapunovExponentModel4.jpg>
+File: ./img//Model3SexRatio.jpg Graphic file (type bmp)
+<./img//Model3SexRatio.jpg>
+
+Overfull \hbox (13.18742pt too wide) in paragraph at lines 533--533
+|[]\T1/ppl/b/n/14.4 Description of the Trans-for-ma-tion From Con-tin-u-ous Foo
+d Web Model
  []
 
+[17]
+File: ./img//M4-Num-Time-ExtLong-FixedAlpha.jpg Graphic file (type bmp)
+<./img//M4-Num-Time-ExtLong-FixedAlpha.jpg>
+ [18]
+File: ./img//Cell1-Done.jpg Graphic file (type bmp)
+<./img//Cell1-Done.jpg>
+File: ./img//Cell2-Done.jpg Graphic file (type bmp)
+<./img//Cell2-Done.jpg>
+File: ./img//Cell3-Done.jpg Graphic file (type bmp)
+<./img//Cell3-Done.jpg>
+File: ./img//Cell4-Done.jpg Graphic file (type bmp)
+<./img//Cell4-Done.jpg>
+ [19]
+Missing character: There is no — ("2014) in font pplr8t!
+Missing character: There is no — ("2014) in font pplr8t!
+File: ./img//M4-Num-Time.jpg Graphic file (type bmp)
+<./img//M4-Num-Time.jpg>
+File: ./img//M4-Num-Time-SexRatio.jpg Graphic file (type bmp)
+<./img//M4-Num-Time-SexRatio.jpg>
+File: ./img//M4-Num-Time-Long.jpg Graphic file (type bmp)
+<./img//M4-Num-Time-Long.jpg>
+[20]
+File: ./img//Sensitivity analysis of β and L.jpg Graphic file (type bmp)
+<./img//Sensitivity analysis of β and L.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--302
-[]|\T1/ppl/m/n/12 Asia cov-ers an area of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 298--302
-\T1/ppl/m/n/12 44,579,000 square kilo-me-
- []
-
-
-Underfull \hbox (badness 5533) in paragraph at lines 298--302
-\T1/ppl/m/n/12 land area and 8.7% of the
- []
-
-[7] [8] [9]
-LaTeX Font Info:    Trying to load font information for T1+txtt on input line 3
-55.
+Missing character: There is no β ("3B2) in font pplr8t!
+Missing character: There is no β ("3B2) in font pplr8t!
+[21] [22]
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 6
+80.
  (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
 Missing character: There is no – ("2013) in font pplr8t!
-
-Underfull \hbox (badness 1057) in paragraph at lines 356--357
-[]\T1/ppl/m/n/12 Lewandoski, S. A. Bren-den, T. O. (2022). Fore-cast-ing sup-pr
-es-sion of in-va-sive
- []
-
-[10] (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
+[23] (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 LaTeX Font Info:    Font shape `T1/txtt/b/n' in size <10.95> not available
-(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 373.
+(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 700.
 LaTeX Font Info:    Font shape `T1/txtt/m/it' in size <10.95> not available
-(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 374.
+(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 701.
 
-(f:/texlive2023/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-[11
+[24
 
-] (f:/texlive2023/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-(f:/texlive2023/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-(f:/texlive2023/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-)
-[12] 
+]
+Missing character: There is no 是 ("662F) in font t1xtt!
+Missing character: There is no 是 ("662F) in font t1xtt!
+Missing character: There is no 是 ("662F) in font t1xtt!
+Missing character: There is no 是 ("662F) in font t1xtt!
+Missing character: There is no 是 ("662F) in font t1xtt!
+
+Overfull \hbox (1.01259pt too wide) in paragraph at lines 784--785
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[25] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./A.aux)
 Package rerunfilecheck Info: File `A.out' has not changed.
-(rerunfilecheck)             Checksum: 7C49BA2FA4A35250C4895960B9A786E4;4336.
+(rerunfilecheck)             Checksum: DCA3967C0181EDEA8CD0D2C78B4BF56E;7660.
  ) 
 Here is how much of TeX's memory you used:
- 15872 strings out of 476683
- 253069 string characters out of 5802283
- 1893012 words of memory out of 5000000
- 35854 multiletter control sequences out of 15000+600000
- 535893 words of font info for 74 fonts, out of 8000000 for 9000
+ 15994 strings out of 476683
+ 257959 string characters out of 5802283
+ 1911012 words of memory out of 5000000
+ 35965 multiletter control sequences out of 15000+600000
+ 546452 words of font info for 108 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,13n,90p,602b,2350s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,14n,90p,1080b,2378s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on A.pdf (12 pages).
+Output written on A.pdf (25 pages).
