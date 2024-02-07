@@ -1,0 +1,19 @@
+function dydt = lampreyModel(t,y)
+xm = 100; % 最大数量
+alpha1 = 0.1;
+alpha2 = 0.2;
+beta1 = 0.1;
+beta2 = 0.2;
+delta = 0.1;
+
+%UNTITLED 此处显示有关此函数的摘要
+%   此处显示详细说明
+% y(1)是X,y(2)是M,y(3)是F,y(4)是r
+dydt = zeros(4,1);
+dydt(1) = y(4)*y(1)*(1-y(1)/xm);
+dydt(2) = y(4)*alpha1*y(1)-beta1*y(2);
+dydt(3) = y(4)*alpha2*y(1)-beta2*y(3);
+y(4) = min(y(2),y(3));
+dydt(1) = dydt(2)+dydt(3);
+end
+
