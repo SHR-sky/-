@@ -228,9 +228,7 @@ $$
 
 根据LV方程针对雌雄七鳃鳗不同的捕食能力加以修正，我们可以得到被捕食者的变化速率方程：
 $$
-
 \frac{\mathrm{d}U}{\mathrm{d}t}=hU-\epsilon_{2}U(a_{F}N_{F}+a_{M}N_{M})
-
 $$
 其中h为被捕食者的自然增长速率，epsilon2为被捕食者对捕食者的捕食转换系数，综合以上方程和关系式我们可以得出
 
@@ -397,8 +395,6 @@ $$
 
 
 
-
-
 问题四
 
 
@@ -448,7 +444,6 @@ $$
 \sum\limits_{m=-1}^{1}\sum\limits_{n=-1}^{1}N_{Fi+m,j+m}(t+\Delta t) = [(b_{3}\alpha-\beta_{3}) - K_{4}a_{F}P_{ij}(t) - K_{5}a_{M}H_{ij}(t)]N_{Fij}(t) \\
 \sum\limits_{m=-1}^{1}\sum\limits_{n=-1}^{1}N_{Mi+m,j+m}(t+\Delta t) = [(b_{3}(1-\alpha)-\beta_{3}) - K_{4}a_{M}P_{ij}(t) - K_{5}a_{F}H_{ij}(t)]P_{ij}(t)
 \end{cases}
-
 $$
 
 ![](file:///C:/Users/sky/AppData/Local/Temp/msohtmlclip1/01/clip_image014.gif)
@@ -501,7 +496,7 @@ $$
 元胞自动机
 
 元胞自动机规则
- 
+
 
 自动机的元胞只有三种——七鳃鳗 和 竞争者（寄生物）和 捕食者，并且由于每一格都代表种群，三种不同元胞不可重合
 
