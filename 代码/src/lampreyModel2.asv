@@ -1,0 +1,22 @@
+function dydt = lampreyModel2(t,y,alpha,Ram)
+%LAMPREYMODEL2 此处显示有关此函数的摘要
+%   此处显示详细说明
+dydt = zeros(3,1);
+% y(1)是X,y(2)是M,y(3)是U
+
+%parameter
+alpha
+a1 = 1.1;
+a2 = 0.9;
+beta = 0.1;
+c = 1;
+lambda = 1000;
+h = 1;
+
+% r = c*y(2)*(y(1)-y(2))/y(1)^2;
+% Ra = epsilon1*y(3)*(a1*y(2)+a2*(y(1)-y(2)))/r;
+dydt(1) = epsilon1*y(3)*(a1*y(2)+a2*(y(1)-y(2)))-beta*y(1);
+dydt(2) = r*alpha*Ra-beta*y(2)-r*Ra/lambda;
+dydt(3) = h*y(3)-epsilon2*y(3)*(a1*y(2)+a2*(y(1)-y(2)));
+end
+
