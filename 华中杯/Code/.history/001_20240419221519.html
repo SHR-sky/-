@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="js/echarts.js"></script>
+  </head>
+
+  <body>
+    <!-- 为 ECharts 准备一个定义了宽高的 DOM -->
+    <div id="main" style="width: 1000px; height: 700px"></div>
+    <script type="text/javascript">
+      var chartDom = document.getElementById("main");
+      var myChart = echarts.init(chartDom);
+      var option;
+
+      option = {
+        xAxis: {
+          type: "category",
+          boundaryGap: false,
+          data: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+        },
+        yAxis: {
+          type: "value",
+        },
+        series: [
+          {
+            name: "20 degree",
+            type: "line",
+            areaStyle: {},
+            data: [
+              14609.1315554607, 16096.6153140987, 17563.48927335,
+              18688.8816780028, 19168.8664264168, 19297.3486201376,
+              19244.4318462007, 18915.8030273639, 18020.5743493051,
+              16562.3551096904, 14951.2121605036, 14131.2601490528,
+            ],
+          },
+          {
+            name: "40 degree",
+            type: "line",
+            areaStyle: {},
+            data: [
+              18603.3025092716, 19363.0693039395, 19898.6667541981,
+              19989.2672177741, 19761.3314781929, 19606.5038165489,
+              19679.2341955, 19923.3070801701, 19989.1406459442,
+              19562.8777847788, 18791.6140634331, 18329.0241745888,
+            ],
+          },
+          {
+            name: "60 degree",
+            type: "line",
+            areaStyle: {},
+            data: [
+              20353.6406249603, 20294.0513672575, 19833.7713514456,
+              18878.6521209171, 17970.2883075074, 17550.8252915059,
+              17740.4304662574, 18527.7662624111, 19546.7215723859,
+              20203.828681696, 20365.469975626, 20316.0373770824,
+            ],
+          },
+        ],
+      };
+
+      option && myChart.setOption(option);
+    </script>
+  </body>
+</html>

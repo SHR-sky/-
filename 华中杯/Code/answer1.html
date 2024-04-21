@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="js/echarts.js"></script>
+  </head>
+
+  <body>
+    <!-- 为 ECharts 准备一个定义了宽高的 DOM -->
+    <div id="main" style="width: 1000px; height: 700px"></div>
+    <script type="text/javascript">
+      var chartDom = document.getElementById("main");
+      var myChart = echarts.init(chartDom);
+      var option;
+
+      option = {
+        title: {
+          text: "太阳直射辐射总能量与月份关系图",
+        },
+        tooltip: {
+          trigger: "axis",
+          axisPointer: {
+            type: "cross",
+            label: {
+              backgroundColor: "#6a7985",
+            },
+          },
+        },
+        legend: {
+          data: ["20 degree", "40 degree", "60 degree"],
+        },
+        toolbox: {
+          feature: {
+            saveAsImage: {},
+          },
+        },
+        grid: {
+          left: "3%",
+          right: "4%",
+          bottom: "3%",
+          containLabel: true,
+        },
+        xAxis: [
+          {
+            name: "月份",
+            type: "category",
+            boundaryGap: false,
+            data: [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "12",
+            ],
+          },
+        ],
+        yAxis: [
+          {
+            name: "KJ/m^2",
+            type: "value",
+            min: 9000,
+            max: 21000,
+            interval: 1500,
+          },
+        ],
+        series: [
+          {
+            name: "20 degree",
+            type: "line",
+            areaStyle: {},
+            emphasis: {
+              focus: "series",
+            },
+            itemStyle: {
+              color: "rgba(91, 166, 255,0.5)", // 新数据用蓝色点
+            },
+            data: [
+              15307.2808320104, 16554.6849861529, 17571.9823102948,
+              17921.2067759737, 17655.7209310029, 17245.8391164582,
+              17233.8596463359, 17467.1826548395, 17271.5439856398,
+              16426.0672605812, 15264.2881787318, 14711.4217251563,
+            ],
+          },
+          {
+            name: "40 degree",
+            type: "line",
+            areaStyle: {},
+            emphasis: {
+              focus: "series",
+            },
+            itemStyle: {
+              color: "rgba(121, 146, 188,0.5)", // 新数据用蓝色点
+            },
+            data: [
+              18408.2063547899, 18469.9447285102, 17977.5174056933,
+              16625.4095559189, 15110.3978122859, 14149.5288121854,
+              14425.6141697302, 15711.7833843431, 17085.611248456,
+              17867.7210094903, 18051.251435397, 18107.4925315188,
+            ],
+          },
+          {
+            name: "60 degree",
+            type: "line",
+            areaStyle: {},
+            emphasis: {
+              focus: "series",
+            },
+            itemStyle: {
+              color: "rgba(91, 147, 142,0.5)", // 新数据用蓝色点
+            },
+            data: [
+              19288.8305149903, 18157.4565492564, 16214.6985820656,
+              13324.3425785074, 10742.5377116863, 9346.5765083582,
+              9877.42672486439, 12061.3111564683, 14838.9016379418,
+              17154.2639051776, 18660.9673608553, 19319.5325004521,
+            ],
+          },
+        ],
+      };
+
+      option && myChart.setOption(option);
+    </script>
+  </body>
+</html>
