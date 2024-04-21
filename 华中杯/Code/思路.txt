@@ -1,0 +1,183 @@
+根据性别，人口预测模型
+然后 相关性分析
+
+
+优势：保证种群稳定
+劣势：影响生态系统
+
+
+性别变（式子）
+性别不变
+分别做预测
+
+性别比例
+动态预测
+
+
+
+
+第三问：评价模型？
+
+
+
+
+第四问：
+捕食者模型
+物种竞争微分方程模型
+
+
+
+
+采用模型
+logistics模型
+捕食者模型
+物种竞争微分方程模型
+
+
+
+
+元胞自动机规则
+ 
+
+自动机的元胞只有三种——七鳃鳗 和 竞争者（寄生物）和 捕食者，并且由于每一格都代表种群，三种不同元胞不可重合
+
+七鳃鳗格子有参数：总数量，性别比例，增长率，死亡率，被捕食率，被竞争率
+捕食者格子有参数：总数量，增长率，死亡率，捕食率
+竞争者格子有参数：总数量，增长率，死亡率，竞争率
+
+其中（为了方便叙述，我都认为是线性的，具体建模可以改为非线性的函数关系，由于这是离散的，两者并无本质区别）
+
+捕食者增长率 = 捕食率 乘以 常数 + 常数
+竞争者增长率 = 竞争率 乘以 常数 + 常数
+七鳃鳗增长率 = 性别比例 乘以 常数 + 常数
+
+七鳃鳗性别比例 = 周围八格的空格 乘以 常数
+
+捕食者死亡率 = 常数
+竞争者死亡率 = 常数
+（与七鳃鳗之间的相互作用，全部等效在增长率上，所以此处可以都认为是常数）
+七鳃鳗死亡率 = 负常数 乘以 竞争率 + 负常数 乘以 捕食率 + 常数
+
+竞争率 = 常数 乘以 竞争者周围八格的七鳃鳗数 （此处忽略种间竞争）
+被竞争率 = 常数 乘以 七鳃鳗周围八格的竞争者数
+捕食率 = 常数 乘以 竞争者周围八格的七鳃鳗数 
+被捕食率 = 常数 乘以 七鳃鳗周围八格的捕食者数
+
+最后，考虑种群分开与组合
+对于以上三种元胞
+上下左右四个格子中，如果有 空格/同种元胞 就移动过去随机数量的（也就是总数量减随机数，空格/同种元胞 加上这个数）
+若没有空格或相同细胞，就不动
+
+
+
+
+
+
+
+
+
+
+可变性别分化比在种群和生态系统中的作用
+
+
+
+
+
+
+
+
+
+As one of the few remaining jawless vertebrate fish-like creatures, lamprey is one of the most popular organisms in contemporary research. Meanwhile, lamprey possesses the characteristics of sexless larvae and differentiated sexes related to the amount of food in the environment, which is of great significance for us to study the sex ratio of the species in relation to the number of species, the availability of resources, and the biological chain.
+
+For Problem 1, we start with the simplest hermaphroditic model and consider the relationship between the case of fixed male differentiation rate and the amount of environmentally available food RA. Since species cannot grow indefinitely, we introduce a logistic model with a reproduction rate equation to control population growth. Then, we considered the variable differentiation rate of lamprey and normalized the differentiation rate to between 0.56 and 0.78 according to the requirements of the question to derive the relationship between the male differentiation rate and the current resource availability. Variable sex ratios allow lamprey populations to utilize resources more and allow lower resource availability in larger ecosystems
+
+
+For Problem 2, our study was extended to the food chain by introducing the LotkaVolterra predation equation, adding prey, and taking into account the different predation abilities of male and female lampreys, successfully modeling the phase relationship of the food chain. It was found that variable sex ratio populations can occupy more resources in the ecosystem, providing an advantage to the population, but raising the risk of extinction of the population due to extinction of one sex
+
+For Problem 3, we introduced the Lyapunov exponent in the field of automatic control to quantitatively measure the stability of the whole system, and added competitors and predators to form a food web based on the previous one, and found that the variable sex ratio of lamprey differentiation gives the ecosystem more stability
+
+For Problem 4, we considered the reality that organisms reproduce in a discrete manner, so we discretely simulated the model using a metacellular automaton based on differential equations, and ultimately obtained that the variable differentiation ratio of lamprey led to more stability of other populations as well.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A population that is necessarily dependent on reproduction for its development and continuation. Based on sexual reproduction, the birth rate (growth rate) of a population is greatly influenced by the sex ratio. Therefore, based on probabilistic considerations of sex chromosome binding, although many species exhibit a 1:1 sex ratio at birth, species tend to deviate from an even sex ratio in order to adapt to their environment and continue their populations. This is known as adaptive sex ratio variation. The sevengill eel is one such typical species.
+
+However, the role of the sevengill eel is complex. For some lake habitats, it is a parasite with significant ecosystem impacts, and we want to reduce its reproduction; but at the same time, the sevengill eel is a source of food in some parts of the world, and is tasty, sought after, and endangered in some areas, and we want to promote its reproduction.
+
+Therefore, we study the pros and cons of the ability to alter its sex ratio based on resource availability, model its relationship with growth rate, and thus study its effect on its impact on other species in the ecosystem, and utilize the advantages and disadvantages of changing the sex ratio of the sevengill to artificially influence its population and ensure the stability of the ecosystem, and thus apply this model to the farming and conservation of the sevengill, as well as the invasion and control of invasive control of the sevengill eel.
+
+
+
+
+
+
+
+
+
+However, the role of the lamprey is complex. For some lake habitats, it is a parasite with significant ecosystem impacts, and we want to reduce its reproduction; but at the same time, the lamprey is a source of food in some parts of the world, and is tasty, sought after, and endangered in some areas, and we want to promote its reproduction.
+
+Therefore, we study the pros and cons of the ability to alter its sex ratio based on resource availability, model its relationship with growth rate, and thus study its effect on its impact on other species in the ecosystem, and utilize the advantages and disadvantages of changing the sex ratio of the lamprey to artificially influence its population and ensure the stability of the ecosystem.
+
+
+七鳃鳗作为至今少数仅存的无颌类脊椎鱼形动物之一，是当代研究的热门生物之一。同时七鳃鳗拥有着幼体无性别、分化的性别与环境食物量有关的特点，对于我们研究物种性别比例与物种数量、资源可用性、生物链等具有重要的意义。
+
+对于问题一，我们从最简单的两性模型入手，考虑固定雄性分化率的情况下与环境可用食物量RA之间的关系。由于物种无法无限生长，我们引入了logistics模型与繁衍率方程来控制数量的增长。接着，我们考虑七鳃鳗的可变分化率的特点，根据题目要求，将分化率规范到0.56~0.78之间，得出了雄性分化率与当前资源可用性之间的关系。可变的性别比例，让七鳃鳗种群利用资源的能力更强，让更大的生态系统中的资源可用性更低
+
+
+对于问题二，我们的研究扩展到食物链，引入LotkaVolterra捕食方程，加入被捕食者，并且考虑了雌雄七鳃鳗不同的捕食能力，成功模拟出食物链的相位关系。发现可变的性别比种群能够占据生态系统中更多的资源，给种群提供优势，但是提高了一种性别灭绝导致种群灭绝的风险
+
+对于问题三，我们引入自动控制领域的Lyapunov exponent来定量衡量整个系统的稳定性，并且在先前基础上加入了竞争者和捕食者，构成了食物网，发现七鳃鳗可变的性别分化比例，让生态系统稳定性更强
+
+对于问题四，我们考虑到现实中生物的繁殖是离散的，因此我们在微分方程的基础上，使用元胞自动机对模型进行离散模拟，最终得到七鳃鳗可变分化比导致了其他种群也更加稳定。
+
+最终，我们对模型进行了稳定性和敏感性分析。在元胞自动机中，种群的初始分布随机，对最终结果无明显影响。对于影响模型的因素——死亡率，我们发现它的改变，明显影响了生态系统的稳定性，说明模型敏感性良好。
+
+but it increase the 风险 that 灭绝 of one sex leds to the 灭绝 of the other
+
+
+我们在元胞自动机的仿真中，初始种群随机生成，并且进行了多次仿真实验，发现最终得到的图像类似，结论相同，说明我们最终的模型具有良好的稳定性
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
