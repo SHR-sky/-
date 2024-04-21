@@ -92,13 +92,7 @@ sin_y_s = 0;
 nowDay = datetime('2023-12-31');
 I_theta = zeros(91,1);
 theta_k0 = 0;
-for mu_360 = -20:20:20
-    temp = 0;
-    sin_y_s = 0;
-    nowDay = datetime('2023-12-31');
-    I_theta = zeros(91,1);
-    theta_k0 = 0;
-    mu = mu_360*2*pi/360;
+for mu = -20:20:20
     for theta_k0_360 = 0:1:90
         theta_k0 = theta_k0_360*2*pi/360; 
         temp = 0;
@@ -126,14 +120,13 @@ for mu_360 = -20:20:20
         %disp(theta_k0_360+" " +temp);
         I_theta(fix(theta_k0_360)+1,:) = temp;
     end
-    plot(0:1:90,I_theta/1000,"LineWidth",2,"DisplayName","\theta with I with \mu = "+num2str(-mu_360));
-    hold on;
 end
-    xlabel("\theta")
-    ylabel("KJ/m^{2}")
-    title("不同\mu下的太阳直射辐射日均总能量")
-    legend
-
+%%
+plot(0:1:90,I_theta/1000,"LineWidth",2,"DisplayName","\theta with I with \mu = 0");
+hold on;
+xlabel("\theta")
+ylabel("KJ/m^{2}")
+legend
 %%
 % Answer 2 3D
 temp = 0;
