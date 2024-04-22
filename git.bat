@@ -1,7 +1,6 @@
-@echo off
+@echo on
 @title bat execute git auto commit
-F:
-cd F:/MCM
-git add .
+cd /d F:/MCM
+git add ./*
 git commit -m "bat更新"
 git push origin main
