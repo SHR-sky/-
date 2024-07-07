@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="js/echarts.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.0.min.js"></script>
+</head>
+
+<body>
+    <!-- 为 ECharts 准备一个定义了宽高的 DOM -->
+    <div id="main" style="width: 600px;height:400px;"></div>
+    <script type="text/javascript">
+      // 基于准备好的dom，初始化echarts实例
+      var myChart = echarts.init(document.getElementById('main'));
+
+      // 指定图表的配置项和数据
+$.ajax({
+  url: "data.csv",
+  dataType: "text",
+  success: function(data) {
+        processData(data);
+        }
+    });
+
+function processData(csvData) {
+  var csvLines = csvData.split("\n");
+  var headers = csvLines[0].split(",");
+
+  var data = [];
+  for (var i = 1; i < csvLines.length; i++) {
+    var line = csvLines[i].split(",");
+    if (line.length <= 1) continue; // 忽略空行
+    var obj = {};
+    for (var j = 0; j < headers.length; j++) {
+      obj[headers[j]] = line[j];
+    }
+    data.push(obj);
+  }
+
+  console.log(data);
+  // 输出：
+  // [
+  //   { Name: "John", Age: "25", Gender: "Male" },
+  //   { Name: "Emily", Age: "30", Gender: "Female" }
+  // ]
+
+  // 对解析后的数据进行进一步处理
+  // ...
+}
+
+      // 使用刚指定的配置项和数据显示图表。
+    </script>
+  </body>
+</html>
